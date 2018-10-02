@@ -3,7 +3,7 @@ import SideNav from '../SideNav/SideNav';
 
 function About (){
     return(
-        <div className="About">
+        <div className="About height">
             About
             <SideNav/>
         </div>

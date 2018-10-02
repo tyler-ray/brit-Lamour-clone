@@ -3,7 +3,7 @@ import SideNav from '../SideNav/SideNav';
 
 function BlogPost (){
     return(
-        <div className="BlogPost">
+        <div className="BlogPost height">
             BlogPost
             <SideNav/>
         </div>

@@ -3,7 +3,7 @@ import SideNav from '../SideNav/SideNav';
 
 function GalleryHome (){
     return(
-        <div className="GalleryHome">
+        <div className="GalleryHome height">
         GalleryHome
             <SideNav/>
         </div>
