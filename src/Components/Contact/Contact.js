@@ -5,7 +5,7 @@ class Contact extends Component {
 
     render() {
         return (
-            <div className="contact-wrapper">
+            <div className="contact-wrapper height">
                 Contact
                 <SideNav />
             </div>

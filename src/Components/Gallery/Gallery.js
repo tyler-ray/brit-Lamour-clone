@@ -3,7 +3,7 @@ import SideNav from '../SideNav/SideNav';
 
 function Gallery (){
     return(
-        <div className="Gallery">
+        <div className="Gallery height">
             Gallery
             <SideNav/>
         </div>

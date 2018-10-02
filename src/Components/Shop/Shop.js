@@ -3,7 +3,7 @@ import SideNav from '../SideNav/SideNav';
 
 function Shop (){
     return(
-        <div className="Shop">
+        <div className="Shop height">
             Shop
             <SideNav/>
         </div>

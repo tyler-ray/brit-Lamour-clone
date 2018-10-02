@@ -15,6 +15,7 @@ import Shop from '../Components/Shop/Shop'
 import StayInspired from '../Components/StayInspired/StayInspired'
 import Details from '../Components/Gallery/Details'
 import RealEstate from '../Components/RealEstate/RealEstate'
+import About from '../Components/About/About'
 
 export default <Switch>
     <Route exact path='/' component={Landing}/>
@@ -29,5 +30,5 @@ export default <Switch>
     <Route path = '/shop-my-style' component = {Shop}/>
     <Route path = '/stay-inspired' component = {StayInspired}/> 
 
-    <Route path = '/about' component = {Home}/>
+    <Route path = '/about' component = {About}/>
 </Switch>

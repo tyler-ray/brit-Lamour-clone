@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Duru+Sans|Quicksand');
+@import url('https://fonts.googleapis.com/css?family=Lora');
+
+.sideNav-wrapper{
+    position: absolute;
+    /* top:-16px; */
+    width:85%;
+    max-width:850px;
+    /* border:1px solid rebeccapurple; */
+    height:100%;
+}
+.Link{
+    font-family:'Quicksand';
+    font-size:170%;
+    font-weight:100;
+}
+.links-wrapper{
+    /* border:1px solid seagreen; */
+    border-right:1px solid black;
+    float:left;
+    width:56%;
+    height:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.welcome-wrapper{
+    /* border:1px solid yellow; */
+    float:right;
+    width:44%;
+    height:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-right:1px solid black;
+}
+.welcome-wrapped{
+    /* border:3px dotted orange; */
+    height:80%;
+    width:50%;
+}
+.sideNav-welcome-img{
+    width:80%;
+    height:auto;
+}
+#hey{
+    margin-top:30px;
+}
+#welcome{
+    font-family:'Lora';
+    font-size:115%;
+    margin-top:30px;
+    letter-spacing:3px;
+}
+
+.Close{
+    position: absolute;
+    /* left:50px; */
+    align-self: left;
+    top:5rem;
+    left:5rem;
+    cursor:pointer;
+}
+.hidden{
+    display:none;
+}
+.myHamburger{
+    align-self:left;
+    text-align:left;
+    position:absolute;
+    left:5rem;
+    top:5rem;
+    display:inline-block;
+}
+.Hamburger{
+    height:1.5rem;
+    cursor:pointer;
+    display:inline-block;
+
+}
+.height{
+    height:100%;
+    width:auto;
+    position: relative;
+    
+    /* border:2px solid slateblue */
+}

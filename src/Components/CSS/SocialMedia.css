@@ -1,0 +1,33 @@
+.SocialMedia-wrapper{
+    /* border:1px solid red; */
+    width:70%;
+    display:flex;
+    justify-content: space-around;
+    fill:yellow;
+    color:gray;
+}
+.SocialMedia-wrapper:hover{
+    opacity: 100%;
+}
+
+
+.SocialMedia{
+    margin-top:30px;
+    display:flex;
+    justify-content: center;
+    /* border:1px solid gold; */
+}
+.Social{
+    height:1.5rem;
+    /* border:1px solid purple; */
+    cursor:pointer;
+/* background-color: red; */
+color:blue;
+fill:green;
+
+}
+.Social:hover{
+    opacity:10%;
+    fill:#FFF;
+    color:white;
+}
