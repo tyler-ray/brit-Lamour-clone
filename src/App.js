@@ -7,6 +7,8 @@ import './Components/CSS/reset.css'
 import './Components/CSS/SideNav.css'
 import './Components/CSS/Home.css'
 import './Components/CSS/SocialMedia.css'
+import './Components/CSS/Landing.css'
+import './Components/CSS/TopNav.css'
 
 class App extends Component {
     render() {

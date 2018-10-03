@@ -1,0 +1,33 @@
+.TopNav-Wrapper{
+    border:1px solid red;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: ' . middle right';
+    height:8rem;
+}
+.middle{
+    grid-area: middle;
+    border:1px dotted hotpink;
+    height:100%;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+}
+.right{
+    grid-area:right;
+    border:1px solid yellow;
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom:1.5rem;
+    height:100%;
+}
+.phrase{
+    font-family: 'Lora';
+  
+}
+/* .searchIcon{
+    border:1px solid green;
+    margin:0px;
+    height:1.5rem;
+} */

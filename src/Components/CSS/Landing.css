@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Playfair+Display+SC');
+@import url('https://fonts.googleapis.com/css?family=Duru+Sans|Quicksand');
+@import url('https://fonts.googleapis.com/css?family=Lora');
+
+.Landing-wrapper{
+    height:100%;
+    /* border:1px solid red; */
+    display:grid;
+    grid-template-columns:1fr 1fr; 
+}
+.empty{
+    height:100%;
+    /* border:2px solid green; */
+}
+.Enter-Site{
+    height:100%;
+    /* border:4px dotted paleturquoise; */
+    display:flex;
+    justify-content: center;
+}
+.enter-wrapper{
+    height:100%;
+    /* border:2px solid darkviolet; */
+    width:50%;
+    display:grid;
+    grid-template-areas: 'signature'
+    'middle'
+    'social'
+}
+#landing-signature{
+    height:5em;
+    width:auto;
+    /* border:1px solid red; */
+    /* margin:50px 0px; */
+    grid-area:signature
+}
+
+.Landing-Title{
+    font-family:'Playfair Display';
+    font-size:3.5rem;
+
+}
+.SubTitle{
+    font-family:'Playfair Display';
+    font-size:1.3rem;
+    font-style:italic;
+    margin:30px 0px;
+}
+.enter-site-button{
+    width:50%;
+    height:3rem;
+    font-family:'Duru Sans';
+    font-weight:800;
+    font-size:90%;
+    background-color:rgb(224, 224, 224);
+    border:none;
+    cursor:pointer;
+}
+.social-wrapper{
+    /* border:1px solid red; */
+    display:flex;
+    justify-content: center;
+    grid-area: social;
+}
+.middle{
+    grid-area: middle;
+}
