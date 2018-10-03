@@ -4,6 +4,8 @@ import { Link } from 'react-router-dom'
 import SocialMedia from '../SocialMedia/SocialMedia'
 import Delete from '../../Images/Delete.svg'
 import Hamburger from '../../Images/Menu.svg'
+import Search from '../../Images/Search Icon.svg'
+import TopNav from '../TopNav/TopNav';
 
 class SideNav extends Component {
     constructor(props) {
@@ -38,6 +40,7 @@ class SideNav extends Component {
         return (
             // <div className="mySideNav">
             <div className="sideNav-wrapper">
+
                 <div className={this.state.one}>
                     <img src={Delete} onClick={() => { this.closeSideNav() }} alt="Close Button" className="Close Button" />
                     <Link to='/home'><h3 className="homeLink Link">Home</h3></Link>
@@ -55,12 +58,27 @@ class SideNav extends Component {
 
                         <h2 className="Link" id="hey">Hey!</h2>
                         <p id="welcome">Welcome to my blog!</p>
-                        <SocialMedia />
+                        <div className="sideNav-media">
+                            <SocialMedia />
+                        </div>
+
                     </div>
                 </div>
+                {/* <div className="topNav"> */}
                 <div className="myHamburger">
                     <img src={Hamburger} alt="Hamburger" onClick={() => this.openSideNav()} className={this.state.three} />
                 </div>
+                {/* <div className="logo">
+                        <img src="../../Images/Signature.JPG" alt="Brit's signature" />
+                        <h4>straight from the heart</h4>
+                    </div>
+                    <div className="social-n-search">
+                        <div>
+                            <SocialMedia />
+                        </div>
+                        <img src={Search} alt="Search" id="search"/>
+                    </div> */}
+                {/* </div> */}
             </div>
             // </div>
 
