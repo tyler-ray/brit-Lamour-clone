@@ -1,11 +1,12 @@
 import React from 'react';
 import SideNav from '../SideNav/SideNav';
-
+import TopNav from '../TopNav/TopNav'
 function Shop (){
     return(
         <div className="Shop height">
-            Shop
             <SideNav/>
+            <TopNav/>
+            Shop
         </div>
     )
 } 

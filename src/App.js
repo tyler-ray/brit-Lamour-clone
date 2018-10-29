@@ -9,6 +9,7 @@ import './Components/CSS/Home.css'
 import './Components/CSS/SocialMedia.css'
 import './Components/CSS/Landing.css'
 import './Components/CSS/TopNav.css'
+import './Components/CSS/Footer.css'
 
 class App extends Component {
     render() {

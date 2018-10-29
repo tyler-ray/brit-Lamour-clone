@@ -3,7 +3,18 @@ import React from 'react';
 function Footer (){
     return(
         <div className="Footer">
-            Footer
+            <div className="socialSpacer">
+            
+            </div>
+            <div className="subscribeBlock">
+            
+            </div>
+            <div className="footerImages">
+            
+            </div>
+            <div className="bottomNav">
+            
+            </div>
         </div>
     )
 } 

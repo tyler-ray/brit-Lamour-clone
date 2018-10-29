@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import SocialMedia from '../SocialMedia/SocialMedia';
+import signature from '../../Images/Signature.png'
 function Start() {
     return (
         <div className="Landing-wrapper">
@@ -8,7 +9,7 @@ function Start() {
             </div>
             <div className="Enter-Site">
                 <div className="enter-wrapper">
-                    <img src="../../Images/Signature.JPG" alt="Brit's signture" id='landing-signature' />
+                    <img src={signature} alt="Brit's signture" id='landing-signature' />
                     <div className="middle">
                     <h1 className="Landing-Title">MAGNIFY YOURSELF</h1>
                     <h2 className='SubTitle'>AS YOU MAGNIFY OTHERS</h2>
