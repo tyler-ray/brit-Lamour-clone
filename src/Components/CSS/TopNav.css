@@ -1,21 +1,31 @@
 .TopNav-Wrapper{
-    border:1px solid red;
+    /* border:1px solid red; */
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: ' . middle right';
     height:8rem;
+    margin-bottom:30px;
 }
 .middle{
     grid-area: middle;
-    border:1px dotted hotpink;
+    /* border:1px dotted hotpink; */
     height:100%;
     display:flex;
     flex-direction:column;
     justify-content: space-between;
 }
+.img-wrapper{
+    margin-top:1.5rem;
+
+    height:5rem;
+}
+.signature{
+    height:100%;
+    width:auto;
+}
 .right{
     grid-area:right;
-    border:1px solid yellow;
+    /* border:1px solid yellow; */
     display:flex;
     justify-content: center;
     align-items: flex-end;
@@ -24,6 +34,7 @@
 }
 .phrase{
     font-family: 'Lora';
+    letter-spacing: .25rem;
   
 }
 /* .searchIcon{

@@ -50,7 +50,7 @@ html{
 	height:100vh;
 	/* border:1bn 0px solid purple; */
 	margin:0px;
-	overflow: hidden;
+	/* overflow: hidden; */
 }
 body {
 	line-height: 1;

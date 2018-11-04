@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom'
 import SocialMedia from '../SocialMedia/SocialMedia'
 import Delete from '../../Images/Delete.svg'
 import Hamburger from '../../Images/Menu.svg'
-import Search from '../../Images/Search Icon.svg'
-import TopNav from '../TopNav/TopNav';
+// import Search from '../../Images/Search Icon.svg'
+// import TopNav from '../TopNav/TopNav';
 
 class SideNav extends Component {
     constructor(props) {

@@ -28,10 +28,11 @@
     'social'
 }
 #landing-signature{
-    height:5em;
+    height:4em;
     width:auto;
     /* border:1px solid red; */
     /* margin:50px 0px; */
+    margin:auto;
     grid-area:signature
 }
 
@@ -54,6 +55,8 @@
     font-size:90%;
     background-color:rgb(224, 224, 224);
     border:none;
+    margin:30px;
+    margin-top:-50px;
     cursor:pointer;
 }
 .social-wrapper{

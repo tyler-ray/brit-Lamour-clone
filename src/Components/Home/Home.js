@@ -10,7 +10,8 @@ export default class Home extends Component {
             <div className="Home-wrapper height">
                 <SideNav match={this.props.match} />
                 <TopNav />
-                {/* Home */}
+                This is the home page!
+                
             </div>
         )
     }
