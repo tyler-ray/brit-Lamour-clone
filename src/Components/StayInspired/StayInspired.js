@@ -5,11 +5,11 @@ import TopNav from '../TopNav/TopNav'
 
 function StayInspired (){
     return(
-        <div className="StayInspired height">
-            <SideNav/>
-            <TopNav/>
+        <div className="StayInspired">
+            {/* <SideNav/> */}
+            {/* <TopNav/> */}
             Stay inspired Mo-Fos!
-            <Footer/>
+            {/* <Footer/> */}
         </div>
     )
 } 

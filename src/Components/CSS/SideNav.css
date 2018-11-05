@@ -3,11 +3,10 @@
 
 .sideNav-wrapper{
     position: absolute;
-    /* top:-16px; */
     width:85%;
     max-width:850px;
-    /* border:1px solid rebeccapurple; */
     height:100%;
+    z-index: 2000
     
 }
 .Link{
@@ -16,7 +15,6 @@
     font-weight:100;
 }
 .links-wrapper{
-    /* border:1px solid seagreen; */
     border-right:1px solid black;
     float:left;
     width:56%;
@@ -28,7 +26,6 @@
 }
 
 .welcome-wrapper{
-    /* border:1px solid yellow; */
     float:right;
     width:44%;
     height:100%;
@@ -39,13 +36,11 @@
     background-color: white;
 }
 .sideNav-media{
-    /* border:2px dashed blue; */
     margin-top:40px;
     display:flex;
     justify-content: center;
 }
 .welcome-wrapped{
-    /* border:3px dotted orange; */
     height:80%;
     width:50%;
 }
@@ -65,12 +60,10 @@
 
 .Close{
     position: absolute;
-    /* left:50px; */
     align-self: left;
     top:5rem;
     left:5rem;
     cursor:pointer;
-    /* border:1px solid black; */
 }
 .hidden{
     display:none;
@@ -93,23 +86,21 @@
     display:flex;
     justify-content: space-between;
     width:100vw;
-    border:1px solid hotpink
+    /* border:1px solid hotpink */
 }
 .Hamburger{
     align-self:left;
     text-align:left;
-    position:absolute;
+    position:fixed;
     height:1.5rem;
     cursor:pointer;
-    display:inline-block;
     left:5rem;
     top:5rem;
+    /* z-index: 2000; */
 
 }
 .height{
     height:100%;
     width:auto;
     position: relative;
-    
-    /* border:2px solid slateblue */
 }
