@@ -20,14 +20,18 @@
 }
 .socialWrapper1{
     /* border:1px solid red; */
-    padding:5% 41%;
+    display:flex;
+    justify-content: center;
+    padding:30px;
 }
 .input-email{
     border-style: line;
     /* background-color: red; */
+    font-family: "Lora";
     height:40px;
     border:1px soild rgb(158, 158, 158);
     padding:10px;
+    /* opacity:.7; */
 }
 .sign-up-button{
     height:40px;
@@ -38,34 +42,53 @@
 }
 
 .photo-wrapper{
-    height:100px;
-    width:100px;
+    height:15vw;
+    width:15vw;
+    /* border:2px dotted green; */
     overflow: hidden;
+    display:flex;
+    justify-content: center;
+    margin:auto;
+    
+
 }
 
 .FooterImg{
-    display:block;
     height:100%;
     width:auto;
-    text-align: center;
-    margin:10px;
+    /* border:1px solid red; */
+
 }
 
 .portrait{
     height:auto;
     width:100%;
+    align-self:center;
+
 }
 .footerImages{
     display:grid;
-    grid-template-columns: repeat(5, 1fr);
-    /* padding:50px 0px; */
+    width:100%;
+    /* border:1px dotted rebeccapurple; */
+    grid-template-columns: repeat(5,1fr);
+    grid-row-gap: 20px;
+    
 }
 
 .bottomNav{
     /* border:1px solid green; */
+    text-decoration: none;
     display:flex;
     justify-content: space-around;
     padding:50px 20px;
     font-family: "Duru Sans";
+    /* opacity:.5; */
+    /* color:red; */
+    /* background-color: red; */
+    /* font-weight: bold; */
+    flex-wrap:wrap;
+}
+.bottomNav>a p{
+    color: black;
     opacity:.5;
 }

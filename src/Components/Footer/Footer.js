@@ -72,14 +72,30 @@ function Footer() {
             <div className="bottomNav-wrapper">
 
                 <div className="bottomNav">
-                    <p>Home</p>
-                    <p>Blog</p>
-                    <p>Beauty</p>
-                    <p>Recipes</p>
-                    <p>Photo</p>
-                    <p>Real Estate</p>
+                    <Link to="/home">
+                        <p>Home</p>
+                    </Link>
+                    <Link to="/blog">
+                        <p>Blog</p>
+                    </Link>
+                    <Link to="/blog">
+                        <p>Beauty</p>
+                    </Link>
+                    <Link to="/blog">
+                        <p>Recipes</p>
+                    </Link>
+                    <Link to="/gallery">
+                        <p>Photo</p>
+                    </Link>
+                    <Link to="/real-estate">
+                        <p>Real Estate</p>
+                    </Link>
+                    <Link to = "/about">
                     <p>About</p>
+                    </Link>
+                    <Link to = "/contact">
                     <p>Contact</p>
+                    </Link>
                 </div>
 
             </div>

@@ -1,11 +1,8 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom'
-// import '../../Images/Facebook.svg'
 import SocialMedia from '../SocialMedia/SocialMedia'
 import Delete from '../../Images/Delete.svg'
 import Hamburger from '../../Images/Menu.svg'
-// import Search from '../../Images/Search Icon.svg'
-// import TopNav from '../TopNav/TopNav';
 
 class SideNav extends Component {
     constructor(props) {
@@ -64,23 +61,10 @@ class SideNav extends Component {
 
                     </div>
                 </div>
-                {/* <div className="topNav"> */}
-                <div className="myHamburger">
-                    <img src={Hamburger} alt="Hamburger" onClick={() => this.openSideNav()} className={this.state.three} />
-                </div>
-                {/* <div className="logo">
-                        <img src="../../Images/Signature.JPG" alt="Brit's signature" />
-                        <h4>straight from the heart</h4>
-                    </div>
-                    <div className="social-n-search">
-                        <div>
-                            <SocialMedia />
-                        </div>
-                        <img src={Search} alt="Search" id="search"/>
-                    </div> */}
+                {/* <div className="myHamburger"> */}
+                <img src={Hamburger} alt="Hamburger" onClick={() => this.openSideNav()} className={this.state.three} />
                 {/* </div> */}
             </div>
-            // </div>
 
         )
     }

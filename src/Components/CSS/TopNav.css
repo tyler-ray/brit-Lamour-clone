@@ -1,14 +1,20 @@
 .TopNav-Wrapper{
+    height:8rem;
     /* border:1px solid red; */
+    position: relative;  
+    margin-bottom:50px;
+}
+.divWrapper{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: ' . middle right';
-    height:8rem;
-    margin-bottom:30px;
+    width:100%;
+    height:auto;
+    position:fixed;
+    /* border:2px solid yellowgreen;     */
 }
 .middle{
     grid-area: middle;
-    /* border:1px dotted hotpink; */
     height:100%;
     display:flex;
     flex-direction:column;
@@ -16,7 +22,6 @@
 }
 .img-wrapper{
     margin-top:1.5rem;
-
     height:5rem;
 }
 .signature{
@@ -25,20 +30,14 @@
 }
 .right{
     grid-area:right;
-    /* border:1px solid yellow; */
     display:flex;
     justify-content: center;
     align-items: flex-end;
-    padding-bottom:1.5rem;
+    padding-bottom: 1rem;
     height:100%;
 }
 .phrase{
     font-family: 'Lora';
     letter-spacing: .25rem;
-  
+    /* position:relative; */
 }
-/* .searchIcon{
-    border:1px solid green;
-    margin:0px;
-    height:1.5rem;
-} */
