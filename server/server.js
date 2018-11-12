@@ -4,7 +4,7 @@ const bodyParser = require('body-parser')
 const app = express();
 app.use(bodyParser.json())
 const {PORT} = process.env
-app.use(express.static(`${s__dirname}/build`))
+app.use(express.static(`${__dirname}/build`))
 
 app.get('/api/checkfunction', (req, res)=>{res.send('that worked!').status(200)})
 
