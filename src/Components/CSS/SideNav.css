@@ -67,8 +67,12 @@
 }
 .hidden{
     display:none;
+    z-index:0;
 }
-
+.empty{
+    position: relative;
+    z-index: 5000
+}
 .social-n-search{
     display:flex;
     border:2px dotted salmon;
