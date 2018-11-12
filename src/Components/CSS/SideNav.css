@@ -71,6 +71,7 @@
 }
 .empty{
     position: relative;
+    padding:50px;
     z-index: 5000
 }
 .social-n-search{
