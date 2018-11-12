@@ -1,5 +1,208 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+.title{
+    font-family: 'Quicksand';
+    font-size: 30pt;
+    font-weight: 100;
+    width: 50%;
+    margin:auto;
+}
 .Home-wrapper{
     height:auto;
-    /* border:13px solid green; */
-    /* border:4px dotted red; */
+    width: 100%;
+    /* border:10px solid red; */
+}
+.main-img-wrapper{
+    width: 100%;
+    padding:10%;
+}
+.HomeImg{
+    width:100%;
+    height:auto;
+
+}
+.both-wrapper{
+    display:flex;
+    justify-content: space-between;
+    width: 100%;
+    /* border:10px dotted orange; */
+    padding:0% 8%;
+}
+.left-wrapper{
+    /* border:10px solid green; */
+    height:auto;
+    width: 50%;
+    display:flex;
+    flex-direction: column;
+    flex:1.5;
+    padding-right:4%;
+}
+.right-wrapper{
+    /* border:10px dashed green; */
+    width:50%;
+    display:flex;
+    flex-direction: column;
+    flex:2
+}
+
+.home-comp-wrap{
+    /* border:10px solid purple; */
+    height:auto;
+    position:relative;
+}
+.img-wrapper1{
+    width:auto;
+    height:auto;
+    /* border:1px solid brown; */
+    text-align: left;
+}
+
+.text-wrapper{
+    height:auto;
+    width:90%;
+    /* border:1px solid blue; */
+    position:relative;
+    text-align: left;
+    line-height: 1.1;
+}
+#quote-wrapper{
+    /* display:relative; */
+    /* left:px; */
+    /* border:1px solid lime; */
+    top:-30px;
+    /* margin-bottom:  30px; */
+    
+}
+.quote{
+    font-size:22pt;
+    font-family: 'Quicksand';
+    font-weight:lighter;
+    margin-bottom:30px;
+}
+.bold{
+    font-weight: bold;
+}
+#Marianne{
+    font-family: 'Lora';
+    font-style: italic;
+    font-size:18px;
+    letter-spacing: .2rem;
+}
+.red-box{
+    height:auto;
+    width:90%;
+    background-color: #FA6666;
+    padding:8%;
+    color:white;
+    text-align: left;
+    position:relative;
+    /* padding-bottom:0px; */
+}
+.red-box > h4{
+    font-family:'Quicksand';
+    font-size:24pt;
+}
+.red-box>p{
+    font-family:'Lora';
+    font-size:10pt;
+    letter-spacing: 3px;
+    opacity:.7;
+    margin-top:20px;
+    width:80%;
+    line-height: 1.4rem;
+}
+
+#FashionImg{
+    height:auto;
+    width:90%;
+}
+#FashionBox{
+    top:-70px;
+    left:10%;
+    height:auto;
+}
+#TravelImg{
+    width:90%;
+    height:auto;
+    top:50px;
+}
+#TravelBox{
+    top:-74px;
+    left:10%;
+}
+#TravelBox > p{
+    width: 90%;
+    /* padding-bottom:30px; */
+    
+}
+.text-wrapper>h4{
+    font-size: 25pt;
+    font-family:"Quicksand";
+    line-height: 3.2rem;
+}
+#LifestyleImg{
+    height:auto;
+    width:90%;
+}
+#LifestyleBox{
+    bottom:70px;
+    left:10%;
+}
+.headder{
+    font-size:24pt;
+    font-family: 'Quicksand';
+    padding:6%;
+    text-align: left;
+}
+#cokeImg{
+    padding-top:5%;
+    width:100%;
+    height:auto;   
+}
+#RecipesImg{
+    margin-top:5%;
+    height:auto;
+    width: 75%;
+}
+#SecondaryBox{
+    position: absolute;
+    width:45%;
+    padding:5%;
+    left:55%;
+    top:50px;
+}
+.red-box > h5{
+
+        font-size: 16pt;
+        font-family:"Quicksand";
+}
+.red-box >p{
+    line-height: 1rem;
+    width:100%;
+}
+#BeautyImg{
+    width:70%;
+    height:auto;
+}
+
+.photography-wrapper{
+    padding:8%;
+    /* border:10px solid green; */
+}
+#photography{
+    /* border:10px solid purple; */
+    width:70%;
+    height:auto;
+}
+.main-box{
+    /* border:10px solid green; */
+    position: absolute;
+    width:35vw;
+    padding:3%;
+    left:60%;
+    margin-top:50px;
+    /* top:0px; */
+    /* top:50px; */
+}
+.main-box>p{
+    line-height: 1rem;
 }
