@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lora');
 
 .sideNav-wrapper{
-    position: absolute;
+    position: fixed;
     width:85%;
     max-width:850px;
     height:100%;
