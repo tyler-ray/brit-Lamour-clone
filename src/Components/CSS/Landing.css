@@ -58,6 +58,7 @@
     margin:30px;
     margin-top:-50px;
     cursor:pointer;
+    z-index:3000;
 }
 .social-wrapper{
     /* border:1px solid red; */

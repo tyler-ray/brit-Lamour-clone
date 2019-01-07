@@ -1,11 +1,16 @@
 import React, { Component } from 'react';
 import HomeImg from '../../Images/Brit Home Pic.jpg'
 import SocialMedia from '../SocialMedia/SocialMedia'
+import SideNav from '../SideNav/SideNav';
+import TopNav from '../TopNav/TopNav';
+import Footer from '../Footer/Footer';
 export default class Home extends Component {
 
     render() {
         return (
             <div className="Home-wrapper">
+            <SideNav/>
+            <TopNav/>
                 <h1 className='title'>MAGNIFY YOURSELF AS YOU MAGNIFY OTHERS</h1>
                 <div className="main-img-wrapper">
                     <img src={HomeImg} alt="Welcome home" className='HomeImg' />
@@ -14,7 +19,7 @@ export default class Home extends Component {
                     <div className="left-wrapper">
                         <div className="home-comp-wrap first">
                             <div className="img-wrapper1">
-                                <img src="https://static1.squarespace.com/static/5973bff5e58c628c612cfc99/t/5b41b2ff88251beed8a16c09/1531034542069/" alt="Fashion" id="FashionImg" />
+                                <img src="https://static1.squarespace.com/static/5973bff5e58c628c612cfc99/t/5c1f077e40ec9abd16b3e7bf/1545537426258/portland-12.jpg" alt="Fashion" id="FashionImg" />
                             </div>
                             <div className="red-box" id="FashionBox">
                                 <h4 className="red-title">FASHION</h4>
@@ -28,7 +33,7 @@ export default class Home extends Component {
                         </div>
                         <div className="home-comp-wrap second">
                             <div className="img-wrapper1">
-                                <img src="https://static1.squarespace.com/static/5973bff5e58c628c612cfc99/t/5b41ac392b6a28b390ac9aa0/1531030696743/" id='TravelImg' alt="" />
+                                <img src="https://static1.squarespace.com/static/5973bff5e58c628c612cfc99/t/5c1f07d7f950b7ec9af55958/1545537507187/portland.day3-33.jpg" id='TravelImg' alt="" />
                             </div>
                             <div className="red-box" id="TravelBox">
                                 <h4 className="red-title">Travel Tips</h4>
@@ -63,7 +68,7 @@ export default class Home extends Component {
                                 <p className="red-text">Welcome to my kitchen! This is where I share our favorite recipes for quick, easy, & tasty dinners!</p>
                             </div>
                             <div className="img-wrapper1">
-                                <img src="https://static1.squarespace.com/static/5973bff5e58c628c612cfc99/t/5b41ad6570a6ad05d063702d/1531031009556/" id='RecipesImg' alt="" />
+                                <img src="https://static1.squarespace.com/static/5973bff5e58c628c612cfc99/t/5c1f0804c2241bdf92851273/1545537564377/portland.day4-113.jpg" id='RecipesImg' alt="" />
                             </div>
                         </div>
                         <div className="home-comp-wrap">
@@ -89,6 +94,7 @@ export default class Home extends Component {
                 <div className="social-wrapper">
                     <SocialMedia />
                 </div>
+                <Footer/>
             </div>
         )
     }

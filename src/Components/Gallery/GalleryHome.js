@@ -1,10 +1,16 @@
 import React from 'react';
-function GalleryHome (){
-    return(
+import SideNav from '../SideNav/SideNav';
+import TopNav from '../TopNav/TopNav';
+import Footer from '../Footer/Footer';
+function GalleryHome() {
+    return (
         <div className="GalleryHome">
-        GalleryHome
+            <SideNav />
+            <TopNav />
+            GalleryHome
+        <Footer />
         </div>
     )
-} 
+}
 
 export default GalleryHome

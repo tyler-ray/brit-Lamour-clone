@@ -1,5 +1,8 @@
 import React from 'react';
 import axios from 'axios';
+import SideNav from '../SideNav/SideNav';
+import TopNav from '../TopNav/TopNav';
+import Footer from '../Footer/Footer';
 function Shop (){
 
     function request (){
@@ -7,8 +10,11 @@ function Shop (){
     }
     return(
         <div className="Shop">
+        <SideNav/>
+        <TopNav/>
             Shop
             <button onClick={request}> Click me!</button>
+        <Footer/>
         </div>
     )
 } 

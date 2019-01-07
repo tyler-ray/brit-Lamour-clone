@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 import './App.css';
 import { HashRouter } from 'react-router-dom'
 import routes from './Routes/Routes'
-import SideNav from './Components/SideNav/SideNav'
-import TopNav from './Components/TopNav/TopNav'
-import Footer from './Components/Footer/Footer'
+// import SideNav from './Components/SideNav/SideNav'
+// import TopNav from './Components/TopNav/TopNav'
+// import Footer from './Components/Footer/Footer'
 import './Components/CSS/reset.css'
 import './Components/CSS/SideNav.css'
 import './Components/CSS/Home.css'
@@ -19,10 +19,9 @@ class App extends Component {
             <HashRouter>
 
                 <div className="App">
-                    <SideNav />
-                    <TopNav />
+                    
                     {routes}
-                    <Footer/>
+               
                 </div>
 
             </HashRouter>
